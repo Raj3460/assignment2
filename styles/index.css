@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+/* srart............. */
+/* shard style */
+.display-flex{
+       display: flex;
+}
+.header,  .main{
+       max-width: 1158px;
+       margin: 0 auto;
+}
+.btn{
+       font-size: 1.25rem ;
+       font-weight: 600;
+       
+       border-radius: 12px;
+       width: 197px;
+       height: 50px;
+       color:rgba(255, 255, 255, 1) ;
+}
+
+
+
+
+
+
+/* ........................................ */
+/* header's navbar related styles */
+.navbar{
+       justify-content: space-between;
+       align-items: center;
+
+}
+.logo{
+       /* gap: 11px; */
+
+}
+.logo-text{
+       font-size: 2rem;
+       font-weight: 700;
+       /* color: aquamarine; */
+       margin: 11px;
+       
+}
+
+.navbar-ul{
+       
+       
+       
+}
+.tags{
+      margin-right: 32px; 
+       margin-left: 32px;
+       color: chartreuse;
+       list-style: none;
+       text-decoration: none;
+
+
+}
+.nav-text{
+       text-decoration: none;
+       font-size: 1.25rem;
+       font-weight: 700;       
+}
+.first{
+       color: orange;
+}
+.second{
+       color: skyblue ;
+}
+.third{
+     color:rgba(5, 212, 223, 1) ;  
+}
+.fourth{
+       color:rgba(93, 88, 239, 1) ;
+}
+
+
+.btn-color-orange{
+       background-color: orange;
+}
+/* ................................................................................................. */
+/* ...................................................................................... */
+/* banner related styles */
+.btn-color-black{
+       background-color: black;
+
+}
+.banner-texts{
+       font-size: 1.25rem;
+       font-weight: 400;
+       color: black;
+       align-items: center;
+}
+.banner-title{
+       font-size: 3.5rem;
+       font-weight: 700;
+       line-height: 61px;
+       margin-bottom: 24px;
+}
+.color-orange{
+color: orange;
+}
+.color-skyblue{
+       color: skyblue;
+}
+.banner{
+       margin-top: 10px;
+       align-items: center;
+       gap: 50px;
+}
+
+/* .................. */
+
+
+/* ............. */
+/* @media quary realated styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 576px) {
+       .navbar{
+flex-direction: column;
+border-bottom: 2px solid orange;
+       }
+
+       .banner{
+              flex-direction: column-reverse;
+       }
+       .banner-text{
+              text-align: center;
+       }
+       
+}
