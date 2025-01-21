@@ -413,7 +413,7 @@ color: #FFFFFF;
 
 @media screen and ( max-width: 576px) {
        .navbar{
-flex-direction: column;
+/* flex-direction: column; */
 border-bottom: 2px solid orange;
 
 /* background-image: url(../assets/4572821-200.png); */
